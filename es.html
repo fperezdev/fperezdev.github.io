@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Francisco Pérez Lefiman — Ingeniero en automatización con IA</title>
+<meta name="description" content="Automatización con IA para pymes: flujos n8n y agentes con LLM. Asistentes de WhatsApp, facturas PDF a gastos validados, leads con score y reportes de ventas. Todo medido y entregado por escrito.">
+<meta name="theme-color" content="#f7f5f0">
+<meta property="og:title" content="Francisco Pérez Lefiman — Automatización con IA">
+<meta property="og:description" content="Flujos n8n y agentes con LLM para pymes. Medido, documentado y entregado por escrito.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://fperezdev.github.io/es.html">
+<link rel="alternate" hreflang="en" href="https://fperezdev.github.io/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <nav>
+    <a class="brand" href="/">Francisco Pérez <span>Lefiman</span></a>
+    <ul>
+      <li class="hide"><a href="#trabajo">Trabajo</a></li>
+      <li class="hide"><a href="#numeros">Números</a></li>
+      <li class="hide"><a href="#metodo">Cómo trabajo</a></li>
+      <li><a class="lang" href="/" hreflang="en" lang="en">EN</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h1>Tomo un proceso manual y repetitivo y entrego una automatización que aguanta en producción.</h1>
+    <p class="lead">Ingeniero en automatización con IA, cinco años de full-stack. Flujos n8n y
+    agentes con LLM para pymes: un asistente de WhatsApp que responde con la información real del
+    negocio, facturas que se convierten en gastos validados, consultas que llegan con score y
+    planillas de ventas que salen como resumen escrito. Medido, documentado y entregado por
+    escrito — sin llamadas.</p>
+    <div class="cta">
+      <a class="btn" href="#trabajo">Ver el trabajo
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+      </a>
+      <a class="btn ghost" href="https://github.com/fperezdev" rel="noopener">
+        <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.33c-2.23.48-2.7-1.07-2.7-1.07-.36-.93-.89-1.18-.89-1.18-.73-.5.05-.49.05-.49.8.06 1.23.83 1.23.83.72 1.23 1.88.87 2.34.67.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.94.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </header>
+
+  <section id="trabajo">
+    <div class="section-head">
+      <h2>Trabajo seleccionado</h2>
+      <p>Dos sistemas que puedes revisar hoy: uno opera un negocio completo, el otro es
+      infraestructura que tiene que responder bien cuando algo falla.</p>
+    </div>
+
+    <ol class="work">
+      <li>
+        <h3>AI Automation Suite</h3>
+        <div class="meta">n8n · FastAPI · PostgreSQL · WhatsApp Cloud API</div>
+        <div class="body">
+          <p>Cinco módulos de automatización armados sobre un cliente real: una clínica dental en
+          Ñuñoa que atendía todo a mano. Facturas escritas en una planilla, WhatsApp respondido
+          entre pacientes, consultas perdidas en la bandeja. La suite cubre facturas, soporte por
+          WhatsApp y webchat, calificación de leads y reportes de ventas, con una sola base de
+          datos y un solo panel.</p>
+          <p>Cada módulo trae su set dorado de 30 casos y una evaluación reproducible, así que los
+          números de esta página están medidos, no prometidos. Las cifras las calculan funciones
+          puras; el LLM solo redacta. Corre con un comando, sin API keys, con un modelo mock
+          determinista.</p>
+          <p class="links">
+            <a href="https://github.com/fperezdev/ai-automation-suite" rel="noopener">Repositorio</a>
+            <a href="https://ai.fperez.top/case/invoiceflow.html" rel="noopener">Caso facturas</a>
+            <a href="https://ai.fperez.top/case/replydesk.html" rel="noopener">Caso WhatsApp</a>
+            <a href="https://ai.fperez.top/" rel="noopener">Sitio</a>
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <h3>FlowWatch</h3>
+        <div class="meta">Go · Next.js · MongoDB · Redis · k3s</div>
+        <div class="body">
+          <p>Alertas para pipelines de datos: un ingestor que recibe eventos por HTTP, un worker
+          que dispara cuando la misma regla falla tres veces seguidas y un panel que muestra cada
+          corrida, incluidos los estados vacío y error. Construido para sobrevivir a su propia
+          infraestructura: dos réplicas, volúmenes persistentes, imagen distroless de 20 MB.</p>
+          <p>Verificado como corresponde: evaluación determinista de 30 casos en 30/30 y prueba de
+          caída de pod con 400 de 400 eventos procesados sin pérdidas.</p>
+          <p class="links">
+            <a href="https://github.com/fperezdev/ai-automation-suite/tree/main/apps/flowwatch" rel="noopener">Código</a>
+          </p>
+        </div>
+      </li>
+
+      <li>
+        <h3>Ingeniería de producto</h3>
+        <div class="meta">React · Next.js · Supabase · Node.js</div>
+        <div class="body">
+          <p>Antes de la automatización pasé cinco años entregando productos web: front end en React
+          y Next.js, datos en Supabase y PostgreSQL, integraciones REST y GraphQL. Por eso las
+          automatizaciones de arriba terminan en un panel usable y no en una carpeta de scripts.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section id="numeros">
+    <div class="section-head">
+      <h2>Cómo se ven los números</h2>
+      <p>Cada fila es un módulo de la suite, sobre su propio set de evaluación. Los tiempos son
+      medianas sobre el set completo; el costo es por operación con los precios de modelo usados en
+      producción.</p>
+    </div>
+    <div class="tbl-scroll">
+      <table>
+        <caption>Medido en 2026 · set de evaluación propio por módulo (30–40 casos) · reproducible con <code>make eval</code></caption>
+        <thead>
+          <tr><th scope="col">Módulo</th><th scope="col">Qué hace</th><th scope="col">Resultado</th><th scope="col">Mediana</th><th scope="col">Costo</th></tr>
+        </thead>
+        <tbody>
+                    <tr><td class="name">InvoiceFlow</td><td data-label="Qué hace">Factura PDF a gasto validado: proveedor, RUT con dígito verificador, neto, IVA 19%, total</td><td class="num" data-label="Resultado">30/30 · campos 100%</td><td class="num" data-label="Mediana">2,9 ms</td><td class="num" data-label="Costo">US$ 0</td></tr>
+                    <tr><td class="name">ReplyDesk</td><td data-label="Qué hace">Respuestas de WhatsApp y webchat ancladas a la información del negocio, con fuente citada y derivación a una persona</td><td class="num" data-label="Resultado">40/40</td><td class="num" data-label="Mediana">1,6 s</td><td class="num" data-label="Costo">US$ 0,00004</td></tr>
+                    <tr><td class="name">LeadScore</td><td data-label="Qué hace">Cada consulta con score explicable punto por punto (HOT ≥ 70 / WARM ≥ 40 / COLD), próxima acción y borrador de respuesta</td><td class="num" data-label="Resultado">30/30 · motivos 100%</td><td class="num" data-label="Mediana">0,05 ms</td><td class="num" data-label="Costo">US$ 0</td></tr>
+                    <tr><td class="name">ReportBot</td><td data-label="Qué hace">Planilla de ventas del mes a resumen escrito: totales, variación, ticket promedio, mejor y peor día</td><td class="num" data-label="Resultado">30/30 · cifras 100%</td><td class="num" data-label="Mediana">0,6 ms</td><td class="num" data-label="Costo">US$ 0</td></tr>
+                    <tr><td class="name">FlowWatch</td><td data-label="Qué hace">Alertas de pipeline con historial por corrida y prueba de caída de pod</td><td class="num" data-label="Resultado">30/30 · 400/400 eventos</td><td class="num" data-label="Mediana">—</td><td class="num" data-label="Costo">—</td></tr>
+                  </tbody>
+      
+      </table>
+    </div>
+  </section>
+
+  <section id="metodo">
+    <div class="section-head">
+      <h2>Cómo trabajo</h2>
+    </div>
+    <div class="two">
+      <div>
+        <p><strong>Por escrito.</strong> Requisitos, decisiones y entrega en texto: una
+        especificación que puedes leer dos veces, una demo grabada corta en vez de una llamada y
+        documentación por módulo. Asíncrono, en español o inglés.</p>
+        <p><strong>Primera entrega chica.</strong> Un proceso funcionando con tus datos reales en
+        días, después el siguiente. Sin plataforma de seis meses antes de que algo funcione.</p>
+      </div>
+      <div>
+        <p><strong>Números antes que adjetivos.</strong> Si un módulo dice ser exacto, viene con el
+        set que lo prueba y el comando que lo reproduce.</p>
+        <p><strong>Determinista donde hay dinero.</strong> Montos, porcentajes y scores se calculan;
+        el modelo redacta la frase alrededor, nunca las cifras.</p>
+        <p><strong>Traspaso documentado.</strong> Repositorio, README por módulo y las notas de
+        operación que tu equipo necesita para correrlo sin mí.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap" style="padding:0">
+      <h2>¿Tienes un proceso que se come horas cada semana?</h2>
+      <p class="lead">Cuéntame cómo funciona hoy: los pasos, la herramienta, quién lo hace. Te
+      respondo qué automatizaría primero, cuánto toma y cuánto cuesta, por escrito.</p>
+      <div class="cta">
+        <a class="btn" href="https://github.com/fperezdev" rel="noopener">Escríbeme por GitHub</a>
+        <a class="btn ghost" href="https://www.workana.com/freelancer/bb457201c64a7fe99c5cc2c6f555dead" rel="noopener">Workana</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/fperezlefiman/" rel="noopener">LinkedIn</a>
+      </div>
+      <p class="fine">Francisco Pérez Lefiman · Santiago, Chile · trabajo en español e inglés ·
+      <a href="/" hreflang="en" lang="en">English version</a></p>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+(() => {
+  const rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (rm) return;
+  const targets = document.querySelectorAll('.hero h1, .hero .lead, .hero .cta, .section-head, .work > li, tbody tr');
+  targets.forEach(el => el.classList.add('rise'));
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (!e.isIntersecting) return;
+      setTimeout(() => e.target.classList.add('in'), i * 45);
+      io.unobserve(e.target);
+    });
+  }, { rootMargin: '0px 0px -8% 0px' });
+  targets.forEach(el => io.observe(el));
+})();
+</script>
+</body>
+</html>
